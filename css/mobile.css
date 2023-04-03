@@ -1,15 +1,32 @@
-/* <!-- секция 4 --> */
 @media screen and (min-width: 480px) {
-  .team {
-    padding-left: 86px;
-    padding-right: 86px;
-  }
   .container {
     max-width: 428px;
   }
-  .team-listphoto {
-    width: 100%;
+  .burger-tel {
+    font-size: 36px;
   }
-  .team-container {
+  .mobile-list {
+    gap: 56px;
+  }
+  .police-form {
+    font-size: 12px;
+  }
+  .modal-police-box {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .nav-item {
+    display: none;
+  }
+  .nav-address {
+    display: none;
+  }
+  .portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 48px;
+    gap: 16px 24px;
   }
 }
