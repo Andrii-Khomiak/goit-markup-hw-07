@@ -1,0 +1,15 @@
+/* <!-- секция 4 --> */
+@media screen and (min-width: 480px) {
+  .team {
+    padding-left: 86px;
+    padding-right: 86px;
+  }
+  .container {
+    max-width: 428px;
+  }
+  .team-listphoto {
+    width: 100%;
+  }
+  .team-container {
+  }
+}

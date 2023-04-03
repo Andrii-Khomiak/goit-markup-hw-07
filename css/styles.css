@@ -950,14 +950,14 @@ span {
 
   color: #8e8f99;
 }
-.form-label-checkbox::before {
-  /* content: "";
+/* .form-label-checkbox::before { */
+/* content: "";
   width: 16px;
   height: 16px;
   border: 1px solid #2e2f42;
   border-radius: 2px;
   margin-right: 8px; */
-}
+/* } */
 /* .form-cheakbox:checked + .form-label-checkbox::before {
   background-color: var(--accent-color);
   border-color: var(--accent-color);

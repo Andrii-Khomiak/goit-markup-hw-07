@@ -21,10 +21,13 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/desktop.css" />
     <!-- Header-шапка -->
   </head>
   <body>
-    <header class="header">
+    <!-- <header class="header">
       <div class="container main-header">
         <nav class="header-navigation">
           <a href="./index.html" class="header-logo link"
@@ -58,23 +61,23 @@
           </ul>
         </address>
       </div>
-    </header>
+    </header> -->
     <!-- основное меню -->
     <main>
       <!-- Hero section-секция 1 -->
-      <section class="hero">
+      <!-- <section class="hero">
         <div class="container hero-container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button type="button" data-modal-open class="hero-button primary">
             Order Service
           </button>
         </div>
-      </section>
+      </section> -->
       <!-- /Hero section-секция 2 -->
       <!-- About section -->
-      <section class="about">
+      <!-- <section class="about">
         <div class="container about-container">
-          <!-- h2 потом сховаем в css -->
+        
           <h2 class="about-titl">Test</h2>
           <ul class="about-list list">
             <li class="about-icon icon-anntena">
@@ -107,7 +110,7 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!-- секция 3 What are we doing -->
       <section class="desktop">
         <div class="container desktop-container">
@@ -327,7 +330,7 @@
     </main>
     <!-- Footer -->
     <footer class="footer">
-      <div class="container footer-container">
+      <div class="container footer-container container-m">
         <div class="logo-footer">
           <a class="footer-logo link" href="./index.html"
             ><span>Web</span>Studio</a
@@ -375,6 +378,7 @@
           <p class="subscribe">Subscribe</p>
           <form action="#" class="form-subcribe">
             <input
+              class="footer-form-input"
               type="text"
               id="E-mail"
               class="form-E-mail"
@@ -494,5 +498,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./mobile-menu.js"></script>
   </body>
 </html>
