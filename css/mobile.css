@@ -1,32 +1,68 @@
 @media screen and (min-width: 480px) {
-  .container {
-    max-width: 428px;
-  }
-  .burger-tel {
-    font-size: 36px;
-  }
-  .mobile-list {
-    gap: 56px;
-  }
-  .police-form {
-    font-size: 12px;
-  }
-  .modal-police-box {
-    font-size: 12px;
-  }
+	.container {
+		max-width: 428px;
+	}
+	.burger-tel {
+		font-size: 36px;
+	}
+	.mobile-list {
+		gap: 56px;
+	}
+	.police-form {
+		font-size: 12px;
+	}
+	.modal-police-box {
+		font-size: 12px;
+	}
 }
 @media screen and (max-width: 767px) {
-  .nav-item {
-    display: none;
-  }
-  .nav-address {
-    display: none;
-  }
-  .portfolio {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    margin-bottom: 48px;
-    gap: 16px 24px;
-  }
+	.nav-item {
+		display: none;
+	}
+	.nav-address {
+		display: none;
+	}
+	.portfolio {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		margin-bottom: 48px;
+		gap: 16px 24px;
+	}
+	.hero-title {
+		font-family: "Roboto";
+		font-style: normal;
+		font-weight: 700;
+		font-size: 36px;
+		line-height: 40px;
+		/* or 111% */
+
+		text-align: center;
+		letter-spacing: 0.02em;
+		text-transform: capitalize;
+
+		/* WHITE */
+
+		color: #ffffff;
+	}
+	.section-text {
+		font-family: "Roboto";
+		font-style: normal;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 24px;
+		letter-spacing: 0.02em;
+		color: #434455;
+	}
+	.expirienc-titl {
+		font-family: "Roboto";
+		font-style: normal;
+		font-weight: 700;
+		font-size: 36px;
+		line-height: 40px;
+		text-align: center;
+		letter-spacing: 0.02em;
+		text-transform: capitalize;
+		color: #2e2f42;
+	}
 }
